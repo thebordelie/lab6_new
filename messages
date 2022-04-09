@@ -1,0 +1,187 @@
+2022-03-30 00:19:21 INFO  ConsoleManager:21 - start a server
+2022-03-30 00:19:25 INFO  Run:15 - start client
+2022-03-30 00:19:25 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 00:19:26 INFO  ConsoleManager:30 - receiving command to server
+2022-03-30 00:19:27 INFO  ConsoleManager:33 - processing commands
+2022-03-30 00:19:27 WARN  ConsoleManager:150 - there is no command
+2022-03-30 00:19:27 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 00:19:29 INFO  ConsoleManager:33 - processing commands
+2022-03-30 00:19:29 INFO  ConsoleManager:46 - send command to server
+2022-03-30 00:19:29 INFO  ConsoleManager:49 - receiving a response to client
+2022-03-30 00:19:29 INFO  ConsoleManager:37 - Sending a response to client
+2022-03-30 00:19:29 INFO  ConsoleManager:54 - execute command
+2022-03-30 00:19:29 INFO  ConsoleManager:30 - receiving command to server
+2022-03-30 00:19:29 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 00:19:30 INFO  ConsoleManager:33 - processing commands
+2022-03-30 00:19:40 INFO  ConsoleManager:46 - send command to server
+2022-03-30 00:19:40 INFO  ConsoleManager:49 - receiving a response to client
+2022-03-30 00:19:40 INFO  ConsoleManager:37 - Sending a response to client
+2022-03-30 00:19:40 INFO  ConsoleManager:54 - execute command
+2022-03-30 00:19:40 INFO  ConsoleManager:30 - receiving command to server
+2022-03-30 00:19:40 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 00:19:42 INFO  ConsoleManager:33 - processing commands
+2022-03-30 00:19:42 INFO  ConsoleManager:46 - send command to server
+2022-03-30 00:19:42 INFO  ConsoleManager:37 - Sending a response to client
+2022-03-30 00:19:42 INFO  ConsoleManager:54 - execute command
+2022-03-30 00:19:42 INFO  ConsoleManager:30 - receiving command to server
+2022-03-30 00:19:42 INFO  ConsoleManager:49 - receiving a response to client
+2022-03-30 00:19:42 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 00:19:44 INFO  ConsoleManager:33 - processing commands
+2022-03-30 00:19:44 INFO  ConsoleManager:46 - send command to server
+2022-03-30 00:19:44 INFO  ConsoleManager:49 - receiving a response to client
+2022-03-30 00:19:44 INFO  ConsoleManager:33 - disabling the server
+2022-03-30 00:19:44 INFO  ConsoleManager:112 - stop a program
+2022-03-30 12:21:31 INFO  Server:21 - start a server
+2022-03-30 12:21:37 INFO  Run:15 - start client
+2022-03-30 12:21:37 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:21:37 INFO  Server:30 - receiving command to server
+2022-03-30 12:21:41 INFO  ConsoleManager:33 - processing commands
+2022-03-30 12:21:41 INFO  ConsoleManager:46 - send command to server
+2022-03-30 12:21:41 INFO  ConsoleManager:49 - receiving a response to client
+2022-03-30 12:21:41 INFO  Server:36 - Sending a response to client
+2022-03-30 12:21:41 INFO  ServerCollectionManager:54 - execute command
+2022-03-30 12:21:41 INFO  Server:30 - receiving command to server
+2022-03-30 12:21:41 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:21:46 INFO  ConsoleManager:33 - processing commands
+2022-03-30 12:21:46 INFO  ConsoleManager:46 - send command to server
+2022-03-30 12:21:46 ERROR ConsoleManager:54 - Sending is not possible
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+	at java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+	at java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+	at se.ifmo.ru.Lab6.Client.SendCommand.Sender(SendCommand.java:47)
+	at se.ifmo.ru.Lab6.Client.ClientCommandManager.SendCommand(ClientCommandManager.java:147)
+	at se.ifmo.ru.Lab6.Client.ConsoleManager.StartInteractiveMod(ConsoleManager.java:47)
+	at se.ifmo.ru.Lab6.Run.main(Run.java:18)
+2022-03-30 12:21:46 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:22:28 INFO  Server:21 - start a server
+2022-03-30 12:22:32 INFO  Run:15 - start client
+2022-03-30 12:22:32 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:22:32 INFO  Server:30 - receiving command to server
+2022-03-30 12:22:37 INFO  ConsoleManager:33 - processing commands
+2022-03-30 12:22:37 INFO  ConsoleManager:47 - send command to server
+2022-03-30 12:22:37 INFO  ConsoleManager:50 - receiving a response to client
+2022-03-30 12:22:37 INFO  Server:36 - Sending a response to client
+2022-03-30 12:22:37 INFO  ServerCollectionManager:54 - execute command
+2022-03-30 12:22:37 INFO  Server:30 - receiving command to server
+2022-03-30 12:22:37 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:22:43 INFO  ConsoleManager:33 - processing commands
+2022-03-30 12:22:43 INFO  ConsoleManager:47 - send command to server
+2022-03-30 12:22:43 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:22:46 INFO  ConsoleManager:33 - processing commands
+2022-03-30 12:22:46 INFO  ConsoleManager:47 - send command to server
+2022-03-30 12:22:46 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:23:31 INFO  Server:21 - start a server
+2022-03-30 12:23:37 INFO  Run:15 - start client
+2022-03-30 12:23:37 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:23:37 INFO  Server:30 - receiving command to server
+2022-03-30 12:23:39 INFO  ConsoleManager:33 - processing commands
+2022-03-30 12:23:39 INFO  ConsoleManager:48 - send command to server
+2022-03-30 12:23:39 INFO  ConsoleManager:51 - receiving a response to client
+2022-03-30 12:23:39 INFO  Server:36 - Sending a response to client
+2022-03-30 12:23:39 INFO  ServerCollectionManager:54 - execute command
+2022-03-30 12:23:39 INFO  Server:30 - receiving command to server
+2022-03-30 12:23:39 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:23:45 INFO  ConsoleManager:33 - processing commands
+2022-03-30 12:23:45 INFO  ConsoleManager:48 - send command to server
+2022-03-30 12:23:45 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:23:52 INFO  Server:21 - start a server
+2022-03-30 12:23:54 INFO  ConsoleManager:33 - processing commands
+2022-03-30 12:23:54 INFO  ConsoleManager:48 - send command to server
+2022-03-30 12:23:54 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 12:42:22 INFO  Server:30 - receiving command to server
+2022-03-30 12:42:24 INFO  Server:36 - Sending a response to client
+2022-03-30 12:42:24 INFO  ServerCollectionManager:54 - execute command
+2022-03-30 12:42:24 INFO  Server:30 - receiving command to server
+2022-03-30 12:42:36 INFO  Server:36 - Sending a response to client
+2022-03-30 12:42:36 INFO  ServerCollectionManager:54 - execute command
+2022-03-30 12:42:36 INFO  Server:30 - receiving command to server
+2022-03-30 12:42:41 INFO  Server:33 - disabling the server
+2022-03-30 12:42:41 INFO  Server:36 - Sending a response to client
+2022-03-30 12:42:41 INFO  ServerCollectionManager:54 - execute command
+2022-03-30 12:42:41 INFO  Server:30 - receiving command to server
+2022-03-30 13:04:12 INFO  Server:21 - start a server
+2022-03-30 13:04:31 INFO  Server:21 - start a server
+2022-03-30 13:05:06 INFO  Server:21 - start a server
+2022-03-30 13:05:27 INFO  Run:15 - start client
+2022-03-30 13:05:27 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:05:30 INFO  ConsoleManager:33 - processing commands
+2022-03-30 13:05:30 INFO  ConsoleManager:47 - send command to server
+2022-03-30 13:05:30 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:05:58 INFO  Server:21 - start a server
+2022-03-30 13:06:03 INFO  Run:15 - start client
+2022-03-30 13:06:03 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:06:03 INFO  Server:30 - receiving command to server
+2022-03-30 13:06:06 INFO  ConsoleManager:33 - processing commands
+2022-03-30 13:06:06 INFO  ConsoleManager:47 - send command to server
+2022-03-30 13:06:06 INFO  ConsoleManager:50 - receiving a response to client
+2022-03-30 13:06:06 INFO  Server:36 - Sending a response to client
+2022-03-30 13:06:06 INFO  ServerCollectionManager:54 - execute command
+2022-03-30 13:06:06 INFO  Server:30 - receiving command to server
+2022-03-30 13:06:06 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:06:09 INFO  ConsoleManager:33 - processing commands
+2022-03-30 13:06:09 INFO  ConsoleManager:47 - send command to server
+2022-03-30 13:06:09 INFO  ConsoleManager:50 - receiving a response to client
+2022-03-30 13:06:09 INFO  Server:33 - disabling the server
+2022-03-30 13:06:09 INFO  Server:36 - Sending a response to client
+2022-03-30 13:06:09 INFO  ConsoleManager:112 - stop a program
+2022-03-30 13:06:09 INFO  ServerCollectionManager:54 - execute command
+2022-03-30 13:06:09 INFO  Server:30 - receiving command to server
+2022-03-30 13:16:06 INFO  Server:21 - start a server
+2022-03-30 13:16:33 INFO  Run:15 - start client
+2022-03-30 13:16:34 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:16:34 INFO  Server:30 - receiving command to server
+2022-03-30 13:16:36 INFO  ConsoleManager:33 - processing commands
+2022-03-30 13:16:36 INFO  ConsoleManager:47 - send command to server
+2022-03-30 13:16:36 INFO  ConsoleManager:50 - receiving a response to client
+2022-03-30 13:16:36 INFO  Server:36 - Sending a response to client
+2022-03-30 13:16:36 INFO  ServerCollectionManager:53 - execute command
+2022-03-30 13:16:36 INFO  Server:30 - receiving command to server
+2022-03-30 13:16:36 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:16:38 INFO  ConsoleManager:33 - processing commands
+2022-03-30 13:16:38 INFO  ConsoleManager:47 - send command to server
+2022-03-30 13:16:38 INFO  ConsoleManager:50 - receiving a response to client
+2022-03-30 13:16:38 INFO  Server:33 - disabling the server
+2022-03-30 13:16:38 INFO  Server:36 - Sending a response to client
+2022-03-30 13:16:38 INFO  ConsoleManager:112 - stop a program
+2022-03-30 13:16:38 INFO  ServerCollectionManager:53 - execute command
+2022-03-30 13:16:38 INFO  Server:30 - receiving command to server
+2022-03-30 13:18:12 INFO  Server:21 - start a server
+2022-03-30 13:18:15 INFO  Run:15 - start client
+2022-03-30 13:18:15 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:18:16 INFO  Server:30 - receiving command to server
+2022-03-30 13:18:17 INFO  ConsoleManager:33 - processing commands
+2022-03-30 13:18:17 INFO  ConsoleManager:47 - send command to server
+2022-03-30 13:18:17 INFO  ConsoleManager:50 - receiving a response to client
+2022-03-30 13:18:18 INFO  Server:33 - disabling the server
+2022-03-30 13:18:18 INFO  ConsoleManager:112 - stop a program
+2022-03-30 13:20:20 INFO  Server:21 - start a server
+2022-03-30 13:20:23 INFO  Run:15 - start client
+2022-03-30 13:20:23 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:20:23 INFO  Server:30 - receiving command to server
+2022-03-30 13:20:26 INFO  ConsoleManager:33 - processing commands
+2022-03-30 13:20:26 INFO  ConsoleManager:47 - send command to server
+2022-03-30 13:20:26 INFO  ConsoleManager:50 - receiving a response to client
+2022-03-30 13:20:26 INFO  Server:33 - disabling the server
+2022-03-30 13:20:26 INFO  ServerCollectionManager:53 - execute command
+2022-03-30 13:20:26 INFO  ConsoleManager:112 - stop a program
+2022-03-30 13:26:38 INFO  Run:15 - start client
+2022-03-30 13:26:40 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:27:47 INFO  Run:15 - start client
+2022-03-30 13:37:03 INFO  Server:21 - start a server
+2022-03-30 13:37:07 INFO  Run:15 - start client
+2022-03-30 13:37:07 INFO  ConsoleManager:43 - reading user commands
+2022-03-30 13:37:07 INFO  Server:30 - receiving command to server
+2022-03-30 13:37:10 INFO  ConsoleManager:33 - processing commands
+2022-03-30 13:37:10 INFO  ConsoleManager:49 - send command to server
+2022-03-30 13:37:10 INFO  ConsoleManager:52 - receiving a response to client
+2022-03-30 13:37:10 INFO  Server:33 - disabling the server
+2022-03-30 13:37:10 INFO  ConsoleManager:112 - stop a program
